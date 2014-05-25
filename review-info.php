@@ -24,9 +24,10 @@
         <div class="movie-tax">
             <?php echo get_the_term_list( $post->ID, 'mood', '<h4 class="movie-data-title">Moods</h4>', ', ', '' ); ?> 
         </div>
-        <div class="movie-tax">
-            <?php echo get_the_term_list( $post->ID, 'rating', '<h4 class="movie-data-title">Rating</h4>', ', ', '' ); ?> 
-        </div>
+        <?php
+            // Output rating through function get_rating() found in functions.php
+            echo get_rating($post->ID);
+        ?>
     </div>
     <div class="short-review">
         <h4 class="movie-data-title">Quick Review</h4>
