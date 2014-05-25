@@ -65,3 +65,50 @@ Template: simone
 .grey {
     color: hsl(0, 0%, 70%);
 }
+
+.review-index {
+    margin: 2rem;
+}
+
+.review-item {
+    width: 250px;
+    margin: 1rem;
+}
+
+.review-item img {
+    display: block;
+}
+
+.filter-boxes {
+    font-family: 'Lato', sans-serif;
+    background: #fff;
+    padding: 2rem;
+    margin-bottom: 2rem;
+}
+
+
+.filter-boxes ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.filter-boxes li {
+    padding: 2px 0;
+    width: 174px;
+}
+
+.tax-stack li {
+    display: inline-block;
+    padding:5px 10px;
+    margin: 0 5px 10px 0;
+    border-radius: 5px;
+    width: auto;
+    border: solid 1px #43C7F4;
+}
+
+.tax-stack li.active {
+    background: #43C7F4;
+    color: #fff;
+    border-color: #fff;
+}
